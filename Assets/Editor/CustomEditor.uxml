@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Label text="These controls were created in UI Builder" name="Title" />
+    <ui:Button text="这是一个按钮" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Button" style="width: 164px;" />
+    <ui:Toggle label="isShow" name="Toggle" />
+    <ui:Label text="These controls were created with UXML." name="Title2" />
+    <ui:Button text="这是通过修改uxml文件添加的按钮" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Button2" style="width: 250px;" />
+    <ui:Toggle label="isShow2" name="Toggle2" />
+</ui:UXML>
