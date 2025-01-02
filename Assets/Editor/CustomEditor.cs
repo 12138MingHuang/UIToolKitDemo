@@ -40,6 +40,8 @@ public class CustomEditor : EditorWindow
         root.Add(toggle);
         
         SetButtonHandler();
+        Debug.Log("CreateGUI" + rootVisualElement.panel);
+        Debug.Log("CreateGUI222" + rootVisualElement.style.position + rootVisualElement.style.left + rootVisualElement.style.top);
     }
 
     private void SetButtonHandler()
